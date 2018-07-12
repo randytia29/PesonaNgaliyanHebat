@@ -62,7 +62,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Deskripsi"
+                android:text="Diawali dari salah satu warga yang memiliki keterampilan sulam pita dan anyam tali makram, yang mana ilmu tersebut dengan senang hati beliau tularkan kepada para warga sekitar. Sehingga hampir seluruh warga memiliki keterampilan yang sama. Sehingga dibentuklah kampung tematik yang dikhususkan pada produk sulam pita dan anyaman tali makram"
                 android:textSize="17sp" />
 
             <TextView
@@ -102,9 +102,9 @@
             <TextView
                 android:id="@+id/textview_sulampita_contact2"
                 android:layout_width="match_parent"
-                android:layout_marginTop="5dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
                 android:text="081326494187 - Bu Devi (Rajut Tali Macrame)"
                 android:textColor="#1976D2"
                 android:textSize="17sp" />
@@ -114,9 +114,9 @@
                 android:layout_height="250dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="10dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/ksulampita1" />
 
             <ImageView
