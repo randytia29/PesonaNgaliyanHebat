@@ -14,9 +14,7 @@ import android.widget.Button;
 
 public class AsriBerimbangActivity extends AppCompatActivity {
 
-    FloatingActionButton fabAsriBerimbangContact;
-    Dialog myDialog;
-    Button simpan, keluar;
+    FloatingActionButton fabAsriBerimbangMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,43 +26,16 @@ public class AsriBerimbangActivity extends AppCompatActivity {
 
         initCollapsingToolbar();
 
-        fabAsriBerimbangContact = (FloatingActionButton) findViewById(R.id.fab_asriberimbang_contact);
-        fabAsriBerimbangContact.setOnClickListener(new View.OnClickListener() {
+        fabAsriBerimbangMap = (FloatingActionButton) findViewById(R.id.fab_asriberimbang_map);
+        fabAsriBerimbangMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MyCustomAlertDialog();
-            }
-        });
-    }
-
-    public void MyCustomAlertDialog() {
-        myDialog = new Dialog(AsriBerimbangActivity.this);
-        myDialog.setContentView(R.layout.dialog_contact_snack);
-        myDialog.setTitle("My Custom Dialog");
-
-        simpan = (Button) myDialog.findViewById(R.id.simpan);
-        keluar = (Button) myDialog.findViewById(R.id.keluar);
-
-        simpan.setEnabled(true);
-        keluar.setEnabled(true);
-
-        simpan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "089697177144", null));
+                Uri gmmIntentUri = Uri.parse("https://plus.codes/6P5G2966+R78");
+                Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                intent.setPackage("com.google.android.apps.maps");
                 startActivity(intent);
-                myDialog.dismiss();
             }
         });
-
-        keluar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                myDialog.dismiss();
-            }
-        });
-
-        myDialog.show();
     }
 
     private void initCollapsingToolbar() {
