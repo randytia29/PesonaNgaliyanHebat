@@ -11,12 +11,12 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class OlahanGadungActivity extends AppCompatActivity {
 
-    FloatingActionButton fabOlahanGadungContact;
-    Dialog myDialog;
-    Button simpan, keluar;
+    FloatingActionButton fabOlahanGadungMap;
+    TextView textViewOlahanGadungContact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,43 +28,25 @@ public class OlahanGadungActivity extends AppCompatActivity {
 
         initCollapsingToolbar();
 
-        fabOlahanGadungContact = (FloatingActionButton) findViewById(R.id.fab_olahan_gadung_contact);
-        fabOlahanGadungContact.setOnClickListener(new View.OnClickListener() {
+        textViewOlahanGadungContact = (TextView) findViewById(R.id.textview_olahan_gadung_contact);
+        textViewOlahanGadungContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MyCustomAlertDialog();
-            }
-        });
-    }
-
-    public void MyCustomAlertDialog() {
-        myDialog = new Dialog(OlahanGadungActivity.this);
-        myDialog.setContentView(R.layout.dialog_contact_snack);
-        myDialog.setTitle("My Custom Dialog");
-
-        simpan = (Button) myDialog.findViewById(R.id.simpan);
-        keluar = (Button) myDialog.findViewById(R.id.keluar);
-
-        simpan.setEnabled(true);
-        keluar.setEnabled(true);
-
-        simpan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "089697177144", null));
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "087832553392", null));
                 startActivity(intent);
-                myDialog.dismiss();
             }
         });
 
-        keluar.setOnClickListener(new View.OnClickListener() {
+        fabOlahanGadungMap = (FloatingActionButton) findViewById(R.id.fab_olahan_gadung_map);
+        fabOlahanGadungMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                myDialog.dismiss();
+                Uri gmmIntentUri = Uri.parse("https://plus.codes/6P4GX7WP+975");
+                Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+                intent.setPackage("com.google.android.apps.maps");
+                startActivity(intent);
             }
         });
-
-        myDialog.show();
     }
 
     private void initCollapsingToolbar() {
