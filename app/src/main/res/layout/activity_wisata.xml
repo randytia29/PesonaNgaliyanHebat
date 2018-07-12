@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WisataActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/indian"
+                style="@style/list_wisata"
+                android:src="@drawable/wkampungindian1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/kapal"
+                style="@style/list_wisata"
+                android:src="@drawable/wmasjidkapal1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/lembahklp"
+                style="@style/list_wisata"
+                android:src="@drawable/wlembahklp1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/tamanlele"
+                style="@style/list_wisata"
+                android:src="@drawable/wtamanlele1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/margasatwa"
+                style="@style/list_wisata"
+                android:src="@drawable/wmargasatwa1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/karangjoho"
+                style="@style/list_wisata"
+                android:src="@drawable/wkarangjoho1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/kaliancar"
+                style="@style/list_wisata"
+                android:src="@drawable/wkaliancar1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/kalipancuran"
+                style="@style/list_wisata"
+                android:src="@drawable/wkalipancuran1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+
+            <com.joooonho.SelectableRoundedImageView
+                android:id="@+id/serendeng"
+                style="@style/list_wisata"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/wserendeng1"
+                app:sriv_left_bottom_corner_radius="48dip"
+                app:sriv_left_top_corner_radius="16dip"
+                app:sriv_right_bottom_corner_radius="16dip"
+                app:sriv_right_top_corner_radius="0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hebat.kecamatanngaliyan.pesonangaliyanhebat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_main"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_main"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SnackActivity"
+            android:label="Kampung Snack Mayangsari"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BringinBerseriActivity"
+            android:label="Kampung Bringin Berseri"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SouvenirActivity"
+            android:label="Kampung Souvenir"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TamanLeleActivity"
+            android:label="Taman Lele"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LembahKalipancurActivity"
+            android:label="Lembah Kalipancur"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".TematikActivity"
+            android:label="Kampung Tematik"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WisataActivity"
+            android:label="Wisata"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KulinerActivity"
+            android:label="Kuliner"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IndianActivity"
+            android:label="Kampung Indian"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KapalActivity"
+            android:label="Masjid Kapal "
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MargasatwaActivity"
+            android:label="Kebun Binatang Mangkang"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KarangjohoActivity"
+            android:label="Curug Karang Joho"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BahalianActivity"
+            android:label="Bah Alian"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KaliancarActivity"
+            android:label="Sendang Kaliancar"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".JambuKristalActivity"
+            android:label="Kampung Jambu Kristal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CeripingActivity"
+            android:label="Kampung Ceriping"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SulamPitaActivity"
+            android:label="Kampung Sulam Pita"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RamahKeluargaActivity"
+            android:label="Kampung Ramah Keluarga"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen2"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".SplashScreen3"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".OlahanGadungActivity"
+            android:label="Kampung Olahan Gadung"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AsriBerimbangActivity"
+            android:label="Kampung Asri Berimbang"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KalipancuranActivity"
+            android:label="Sendang Kalipancuran"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SerendengActivity"
+            android:label="Sendang Serendeng"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

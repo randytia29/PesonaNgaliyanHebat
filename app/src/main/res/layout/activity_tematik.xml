@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".TematikActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_snack"
+                    style="@style/card_view_tematik"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kampung_snack"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_jambu_kristal"
+                    style="@style/card_view_tematik"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kampung_jambu_kristal"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_souvenir"
+                    style="@style/card_view_tematik"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kampung_souvenir"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_criping"
+                    style="@style/card_view_tematik"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kampung_criping"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_bringinberseri"
+                    style="@style/card_view_tematik"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kampung_bringin_berseri"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_sulampita"
+                    style="@style/card_view_tematik"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kampung_sulam_pita"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_asri_berimbang"
+                    style="@style/card_view_tematik"
+                    android:layout_marginRight="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kampung_asriberimbang"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_ramah_keluarga"
+                    style="@style/card_view_tematik"
+                    android:layout_marginLeft="30dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/kampung_ramah_keluarga"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/kampung_olahan_gadung"
+                    style="@style/card_view_tematik"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="3dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_home_black_24dp"
+                        tools:ignore="ContentDescription" />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

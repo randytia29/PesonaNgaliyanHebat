@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".SouvenirActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_backdrop_height"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/backdrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/kampung_souvenir"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Berbagai macam souvenir hasil kerajinan tangan sendiri disediakan disini. Dari bahan kain perca, rajut dan flanel yang biasa digunakan dalam produksinya"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Lokasi"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Kampung Souvenir RT 03 RW 04 Kelurahan Tambakaji"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ksouvenirmain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Info"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_souvenir_contact1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="08156660851 - Bu Tien Tarsidi"
+                android:textColor="#1976D2"
+                android:textSize="17sp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir1" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Sepatu Rajut Polos" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp150.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir2" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Sepatu Rajut Pita" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp140.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksouvenir3" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Topi Rajut" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp20.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir4" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Dompet Rajut" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp50.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir5" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tas Rajut Satu Warna" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp250.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir6" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tas Rajut Dua Warna" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp200.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir7" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tas Payet" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp175.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir8" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Dompet Rajut" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp60.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir9" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Dompet Rajut Tali" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp125.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir10" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Bros Rajut" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp10.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir11" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Kalung Mutiara" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp125.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/textview_souvenir_contact2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="085950720860 - Bu Suparti"
+                android:textColor="#1976D2"
+                android:textSize="17sp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir12" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Bros Karakter" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp3.500" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksouvenir13" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tempat Tisu" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp15.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir14" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tempat Tisu Flanel" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp30.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:src="@drawable/ksouvenir15" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tas Bunga" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp20.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksouvenir16" />
+
+                    <TextView
+                        android:layout_width="185dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Tempat Tisu Pelepah Pisang" />
+
+                    <TextView
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:paddingRight="10dp"
+                        android:text="Rp40.000" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_souvenir_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="55dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_place_white_48"
+            app:backgroundTint="@color/fab_tematik"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
