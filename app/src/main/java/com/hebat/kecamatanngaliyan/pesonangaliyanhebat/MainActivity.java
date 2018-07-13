@@ -1,12 +1,9 @@
 package com.hebat.kecamatanngaliyan.pesonangaliyanhebat;
 
 import android.content.Intent;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imageViewTematik = (ImageView) findViewById(R.id.imageView_tematik);
-        imageViewWisata = (ImageView) findViewById(R.id.imageView_wisata);
-        imageViewKuliner = (ImageView) findViewById(R.id.imageView_kuliner);
+        imageViewTematik = findViewById(R.id.imageView_tematik);
+        imageViewWisata = findViewById(R.id.imageView_wisata);
+        imageViewKuliner = findViewById(R.id.imageView_kuliner);
 
         imageViewTematik.setOnClickListener(new View.OnClickListener() {
             @Override

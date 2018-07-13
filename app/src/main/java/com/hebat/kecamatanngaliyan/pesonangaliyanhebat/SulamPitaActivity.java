@@ -48,7 +48,7 @@ public class SulamPitaActivity extends AppCompatActivity {
         fabSulamPitaMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("https://plus.codes/6P4GX9PC+9G3");
+                Uri gmmIntentUri = Uri.parse("https://plus.codes/6P4GX9MC+RR");
                 Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 intent.setPackage("com.google.android.apps.maps");
                 startActivity(intent);

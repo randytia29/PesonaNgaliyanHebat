@@ -16,7 +16,7 @@ public class WisataActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wisata);
 
-        tamanlele = (SelectableRoundedImageView) findViewById(R.id.tamanlele);
+        tamanlele = findViewById(R.id.tamanlele);
         tamanlele.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,7 +25,7 @@ public class WisataActivity extends AppCompatActivity {
             }
         });
 
-        lembahKlp = (SelectableRoundedImageView) findViewById(R.id.lembahklp);
+        lembahKlp = findViewById(R.id.lembahklp);
         lembahKlp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,7 +34,7 @@ public class WisataActivity extends AppCompatActivity {
             }
         });
 
-        indian = (SelectableRoundedImageView) findViewById(R.id.indian);
+        indian = findViewById(R.id.indian);
         indian.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +43,7 @@ public class WisataActivity extends AppCompatActivity {
             }
         });
 
-        kapal = (SelectableRoundedImageView) findViewById(R.id.kapal);
+        kapal = findViewById(R.id.kapal);
         kapal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,7 +52,7 @@ public class WisataActivity extends AppCompatActivity {
             }
         });
 
-        margasatwa = (SelectableRoundedImageView) findViewById(R.id.margasatwa);
+        margasatwa = findViewById(R.id.margasatwa);
         margasatwa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,7 +61,7 @@ public class WisataActivity extends AppCompatActivity {
             }
         });
 
-        karangjoho = (SelectableRoundedImageView) findViewById(R.id.karangjoho);
+        karangjoho = findViewById(R.id.karangjoho);
         karangjoho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,7 +70,7 @@ public class WisataActivity extends AppCompatActivity {
             }
         });
 
-        kaliancar = (SelectableRoundedImageView) findViewById(R.id.kaliancar);
+        kaliancar = findViewById(R.id.kaliancar);
         kaliancar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -79,7 +79,7 @@ public class WisataActivity extends AppCompatActivity {
             }
         });
 
-        kalipancuran = (SelectableRoundedImageView) findViewById(R.id.kalipancuran);
+        kalipancuran = findViewById(R.id.kalipancuran);
         kalipancuran.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -88,7 +88,7 @@ public class WisataActivity extends AppCompatActivity {
             }
         });
 
-        serendeng = (SelectableRoundedImageView) findViewById(R.id.serendeng);
+        serendeng = findViewById(R.id.serendeng);
         serendeng.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

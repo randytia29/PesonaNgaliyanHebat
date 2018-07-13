@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Pesona Ngaliyan Hebat</string>
+    
+    <string name="harga_tiket">Harga Tiket</string>
+
     <string name="deskripsi_kampung_indian">Kampung Indian berlokasi di wilayah RW 19
         Kelurahan Bringin. Disini menjadi spot
         foto terbaik dengan suasana bertemakan kampung
@@ -86,5 +89,20 @@
         bandara mini. Disini terdapat peternakan sapi
         dan kuda. Danau di sekitar lembah cocok untuk
         spot foto-foto</string>
+
+    <string name="senin_jumat_rp5_000">Senin - Jumat Rp5.000</string>
+    <string name="sabtu_minggu_rp7_000">Sabtu - Minggu Rp7.000</string>
+    <string name="tarif_wahana">Tarif Wahana</string>
+    <string name="naik_gajah_rp5_000">Naik Gajah Rp5.000</string>
+    <string name="naik_becak_rp5_000">Naik Becak Rp5.000</string>
+    <string name="naik_kuda_rp10_000">Naik Kuda Rp10.000</string>
+    <string name="naik_perahu_rp3_000">Naik Perahu Rp3.000</string>
+    <string name="flying_fox_rp10_000">Flying Fox Rp10.000</string>
+    <string name="naik_kereta_mini_rp3_000">Naik Kereta Mini Rp3.000</string>
+    <string name="tiket_water_boom_rp10_000">Tiket Water Boom Rp10.000</string>
+    <string name="nonton_film_satwa_rp3_000">Nonton Film Satwa Rp3.000</string>
+    <string name="sendang_kaliancar_mempunyai_dua_sumber_mata_air_diantaranya">Sendang Kaliancar mempunyai dua sumber mata air diantaranya</string>
+    <string name="sumber_mata_air_panguripan_yang_bermuara_diatas">Sumber mata air Panguripan yang bermuara diatas</string>
+    <string name="sumber_mata_air_pengasihan_yang_bermuara_dibawah">Sumber mata air Pengasihan yang bermuara dibawah</string>
 
 </resources>

@@ -19,12 +19,12 @@ public class IndianActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_indian);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         initCollapsingToolbar();
 
-        fabIndianMap = (FloatingActionButton) findViewById(R.id.fab_indian_map);
+        fabIndianMap = findViewById(R.id.fab_indian_map);
         fabIndianMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,9 +38,9 @@ public class IndianActivity extends AppCompatActivity {
 
     private void initCollapsingToolbar() {
         final CollapsingToolbarLayout collapsingToolbar =
-                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+                findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitle(" ");
-        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
+        AppBarLayout appBarLayout = findViewById(R.id.appbar);
         appBarLayout.setExpanded(true);
 
         // hiding & showing the title when toolbar expanded & collapsed

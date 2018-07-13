@@ -15,7 +15,7 @@ public class TematikActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tematik);
 
-        snack = (CardView) findViewById(R.id.kampung_snack);
+        snack = findViewById(R.id.kampung_snack);
         snack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,7 +24,7 @@ public class TematikActivity extends AppCompatActivity {
             }
         });
 
-        bringinBerseri = (CardView) findViewById(R.id.kampung_bringinberseri);
+        bringinBerseri = findViewById(R.id.kampung_bringinberseri);
         bringinBerseri.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +33,7 @@ public class TematikActivity extends AppCompatActivity {
             }
         });
 
-        souvenir = (CardView) findViewById(R.id.kampung_souvenir);
+        souvenir = findViewById(R.id.kampung_souvenir);
         souvenir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +42,7 @@ public class TematikActivity extends AppCompatActivity {
             }
         });
 
-        jambuKris = (CardView) findViewById(R.id.kampung_jambu_kristal);
+        jambuKris = findViewById(R.id.kampung_jambu_kristal);
         jambuKris.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +51,7 @@ public class TematikActivity extends AppCompatActivity {
             }
         });
 
-        ceriping = (CardView) findViewById(R.id.kampung_criping);
+        ceriping = findViewById(R.id.kampung_criping);
         ceriping.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,7 +60,7 @@ public class TematikActivity extends AppCompatActivity {
             }
         });
 
-        sulamPita = (CardView) findViewById(R.id.kampung_sulampita);
+        sulamPita = findViewById(R.id.kampung_sulampita);
         sulamPita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +69,7 @@ public class TematikActivity extends AppCompatActivity {
             }
         });
 
-        ramahKeluarga = (CardView) findViewById(R.id.kampung_ramah_keluarga);
+        ramahKeluarga = findViewById(R.id.kampung_ramah_keluarga);
         ramahKeluarga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +78,7 @@ public class TematikActivity extends AppCompatActivity {
             }
         });
 
-        olahanGadung = (CardView) findViewById(R.id.kampung_olahan_gadung);
+        olahanGadung = findViewById(R.id.kampung_olahan_gadung);
         olahanGadung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -87,7 +87,7 @@ public class TematikActivity extends AppCompatActivity {
             }
         });
 
-        asriBerimbang = (CardView) findViewById(R.id.kampung_asri_berimbang);
+        asriBerimbang = findViewById(R.id.kampung_asri_berimbang);
         asriBerimbang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

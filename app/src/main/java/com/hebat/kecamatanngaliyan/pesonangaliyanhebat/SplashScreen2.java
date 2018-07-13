@@ -20,6 +20,6 @@ public class SplashScreen2 extends AppCompatActivity {
                 startActivity(i);
                 finish();
             }
-        }, 2000);
+        }, 3000);
     }
 }
