@@ -63,23 +63,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Deskripsi"
-                android:textSize="17sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:text="Lokasi"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Kampung Mayangsari RW 02 Kelurahan Kalipancur"
+                android:layout_marginRight="10dp"
+                android:text="Kampung Snack ini berisi produk olahan dari ibu-ibu di RW II Kelurahan Kalipancur berupa makanan kecil tradisional dan snack kecil lainnya. Produknya berupa arem-arem, Banana Roll, Bolu Kukus, Dadar Gulung, Gethuk, Jadah, Lemper, Pastel, Putu Ayu, Resoles, Tahu Bakso, Pie Buah dll"
                 android:textSize="17sp" />
 
             <ImageView

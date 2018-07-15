@@ -62,23 +62,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Kampung Salam Kerep merupakan salah satu wilayah di Kelurahan Gondoriyo yang mempunyai potensi lahan yang masih luas dimana penduduknya sebagian besar bekerja sebagai petani. Dipilihnya Kampung Salam Kerep sebagai kampung tematik karena dipandang mempunyai produk unggulan potensi usaha pembuatan tempe, pembuatan ceriping daun singkong, ceriping singkong dan pembuatan ceriping kulit pisang"
-                android:textSize="17sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:text="Lokasi"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Kampung Criping RW 03 Kelurahan Gondoriyo"
+                android:layout_marginRight="10dp"
+                android:text="Kampung Criping Gondoriyo terletak di RT 01 RW III Kelurahan Gondoriyo Kecamatan Ngaliyan. Kampung Criping ini dibuat dengan maksud memanfatkan potensi lahan yang kebetulan penduduknya sebagian besar bermata pencaharian sebagai petani. Produk dari kampung criping antara lain tempe, ceriping daun singkong, ceriping singkong, ceriping kulit pisang dan aneka jajanan lainnya"
                 android:textSize="17sp" />
 
             <ImageView
@@ -109,6 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
