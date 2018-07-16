@@ -64,7 +64,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
-                android:text="Kampung Jambu Kristal berada di wilayah RT 03, 04, 05, 10 di RW 02 08 Kelurahan Wates. Kampung Tematik ini bermitra dengan Dinas Pertanian UPTD Kebun Dinas Pertanian Kebun Wates atau yang lebih dikenal Kebun Suler. Kebun Buah milik UPTD Dinas Pertanian ini memiliki Luas kurang lebih 6 Ha yang terletak di wilayah RW 02 Kelurahan Wates. Warga membudidayakan jambu kristal ini dengan cara menanam di media tanam pot besar. Jambu kristal ini selain bisa dinikmati buahnya secara langsung juga dapat diolah menjadi asinan dan sirup jambu kristal. Dikampung Tematik ini selain di dominasi oleh tanaman jambu kristal juga ada tanaman pendukung seperti Kelengkeng, Pepaya California, Bunga Anggrek dan Kentang Hitam"
+                android:text="Kampung Jambu Kristal berada di wilayah RT 03, 04, 05, 10 di RW II, VIII Kelurahan Wates. Kampung Tematik ini bermitra dengan Dinas Pertanian UPTD Kebun Dinas Pertanian Kebun Wates atau yang lebih dikenal Kebun Suler. Kebun Buah milik UPTD Dinas Pertanian ini memiliki Luas kurang lebih 6 Ha yang terletak di wilayah RW II Kelurahan Wates. Warga membudidayakan jambu kristal ini dengan cara menanam di media tanam pot besar. Jambu kristal ini selain bisa dinikmati buahnya secara langsung juga dapat diolah menjadi asinan dan sirup jambu kristal. Dikampung Tematik ini selain di dominasi oleh tanaman jambu kristal juga ada tanaman pendukung seperti Kelengkeng, Pepaya California, Bunga Anggrek dan Kentang Hitam"
                 android:textSize="17sp" />
 
             <ImageView

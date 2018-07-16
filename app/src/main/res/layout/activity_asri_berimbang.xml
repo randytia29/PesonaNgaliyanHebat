@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Kampung Tematik dan Kampung KB berada di RW 11 Kelurahan Purwoyoso Kecamatan Ngaliyan. Kampung Tematik terbentuk tahun 2016 dan Kampung KB pada tahun 2017. Kampung tematik di wilayah RW 11 Kelurahan Purwoyoso bertujuan untuk meningkatkan penghijauan, keindahan dan keasrian. Sedangkan Kampung KB di wilayah RW 11 bertujuan untuk meningkatkan kesadaran warga dalam mensukseskan program pemerintah. Melalui program peningkatan jumlah peserta atau akseptor KB"
+                android:text="Kampung Tematik dan Kampung KB berada di RW XI Kelurahan Purwoyoso Kecamatan Ngaliyan. Kampung Tematik terbentuk tahun 2016 dan Kampung KB pada tahun 2017. Kampung tematik di wilayah RW XI Kelurahan Purwoyoso bertujuan untuk meningkatkan penghijauan, keindahan dan keasrian. Sedangkan Kampung KB di wilayah RW XI bertujuan untuk meningkatkan kesadaran warga dalam mensukseskan program pemerintah. Melalui program peningkatan jumlah peserta atau akseptor KB"
                 android:textSize="17sp" />
 
             <ImageView

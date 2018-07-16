@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Kampung Tematik Olahan Gadung berada di wilayah RT .. RW .. Kelurahan Podorejo Kecamatan Ngaliyan. Produk yang dihasilkan dari Kampung Olahan Gadung ini antara lain keripik gadung, stick gadung dan tepung gadung"
+                android:text="Kampung Tematik Olahan Gadung berada di wilayah RW VII Kelurahan Podorejo Kecamatan Ngaliyan. Produk yang dihasilkan dari Kampung Olahan Gadung ini antara lain keripik gadung, stick gadung dan tepung gadung"
                 android:textSize="17sp" />
 
             <ImageView
@@ -110,18 +110,18 @@
                         android:src="@drawable/kolahangadung1" />
 
                     <TextView
-                        android:layout_width="195dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="Kripik Gadung"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="105dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga"
+                        android:text="Rp40.000"
                         android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -145,18 +145,18 @@
                         android:src="@drawable/kolahangadung2" />
 
                     <TextView
-                        android:layout_width="195dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="Stick Gadung"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="105dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga"
+                        android:text="Rp40.000"
                         android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -180,18 +180,18 @@
                         android:src="@drawable/kolahangadung3" />
 
                     <TextView
-                        android:layout_width="195dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="Tepung Gadung"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="105dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga"
+                        android:text="Rp8.000/kg"
                         android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>

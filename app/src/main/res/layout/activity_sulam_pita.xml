@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Kampung Sulam Pita berada di Kampung Kalipancur RT 08 RW 03. Produk yang dihasilkan adalah sulam pita untuk dompet, tas, baju, kerudung, sepatu, taplak meja, dan masih ada yang lain sesuai permintaan pelanggan. Selain sulam pita juga terdapat produk anyaman tali makram. Produk yang dihasilkan diantaranya adalah dompet, tas, sandal, gantungan kunci, dan masih ada produk lain yang disesuaikan dengan permintaan pelanggan"
+                android:text="Kampung Sulam Pita berada di Kampung Kalipancur RT 08 RW III. Produk yang dihasilkan adalah sulam pita untuk dompet, tas, baju, kerudung, sepatu, taplak meja, dan masih ada yang lain sesuai permintaan pelanggan. Selain sulam pita juga terdapat produk anyaman tali makram. Produk yang dihasilkan diantaranya adalah dompet, tas, sandal, gantungan kunci, dan masih ada produk lain yang disesuaikan dengan permintaan pelanggan"
                 android:textSize="17sp" />
 
             <TextView
