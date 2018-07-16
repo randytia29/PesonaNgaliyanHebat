@@ -62,23 +62,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Diawali dari salah satu warga yang memiliki keterampilan sulam pita dan anyam tali makram, yang mana ilmu tersebut dengan senang hati beliau tularkan kepada para warga sekitar. Sehingga hampir seluruh warga memiliki keterampilan yang sama. Sehingga dibentuklah kampung tematik yang dikhususkan pada produk sulam pita dan anyaman tali makram"
-                android:textSize="17sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:text="Lokasi"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Kampung Sulam Pita RW 03 Kelurahan Bambankerep"
+                android:layout_marginRight="10dp"
+                android:text="Kampung Sulam Pita berada di Kampung Kalipancur RT 08 RW 03. Produk yang dihasilkan adalah sulam pita untuk dompet, tas, baju, kerudung, sepatu, taplak meja, dan masih ada yang lain sesuai permintaan pelanggan. Selain sulam pita juga terdapat produk anyaman tali makram. Produk yang dihasilkan diantaranya adalah dompet, tas, sandal, gantungan kunci, dan masih ada produk lain yang disesuaikan dengan permintaan pelanggan"
                 android:textSize="17sp" />
 
             <TextView

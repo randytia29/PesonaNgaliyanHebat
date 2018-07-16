@@ -62,23 +62,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Kampung Olahan Gadung berdekatan dengan kebun dan hutan Perhutani dengan harapan dapat dirancang untuk menjadi kampung wisata Olahan Gadung"
-                android:textSize="17sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:text="Lokasi"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Kampung Keripik Gadung RW 07 Kelurahan Podorejo"
+                android:layout_marginRight="10dp"
+                android:text="Kampung Tematik Olahan Gadung berada di wilayah RT .. RW .. Kelurahan Podorejo Kecamatan Ngaliyan. Produk yang dihasilkan dari Kampung Olahan Gadung ini antara lain keripik gadung, stick gadung dan tepung gadung"
                 android:textSize="17sp" />
 
             <ImageView

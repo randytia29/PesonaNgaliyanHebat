@@ -62,31 +62,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Kampung Asri dan Berimbang bertujuan untuk meningkatkan penghijauan, keindahan, keasrian karena selama ini wilayah tersebut sangat minim jumlah tanaman. Melalui program kampung tematik sekarang wilayah disini terlihat lebih hijau, asri dengan jumlah tanaman dalam pot pada setiap rumah warga"
-                android:textSize="17sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:text="Sedangkan Kampung KB bertujuan untuk meningkatkan kesadaran warga dalam mensukseskan program pemerintah. Warga sekarang sudah tergugah hatinya untuk menjadi peserta KB demi kesehatan mereka sendiri"
-                android:textSize="17sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:text="Lokasi"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:text="Kampung Asri dan Berimbang RW 11 Kelurahan Purwoyoso"
+                android:layout_marginRight="10dp"
+                android:text="Kampung Tematik dan Kampung KB berada di RW 11 Kelurahan Purwoyoso Kecamatan Ngaliyan. Kampung Tematik terbentuk tahun 2016 dan Kampung KB pada tahun 2017. Kampung tematik di wilayah RW 11 Kelurahan Purwoyoso bertujuan untuk meningkatkan penghijauan, keindahan dan keasrian. Sedangkan Kampung KB di wilayah RW 11 bertujuan untuk meningkatkan kesadaran warga dalam mensukseskan program pemerintah. Melalui program peningkatan jumlah peserta atau akseptor KB"
                 android:textSize="17sp" />
 
             <ImageView
