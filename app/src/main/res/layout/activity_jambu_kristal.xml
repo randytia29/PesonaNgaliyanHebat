@@ -114,14 +114,16 @@
                         android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Jambu Kristal" />
+                        android:text="Jambu Kristal"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="15dp"
-                        android:text="Rp10.000/kg" />
+                        android:text="Rp10.000/kg"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -147,14 +149,16 @@
                         android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Manisan Jambu Kristal" />
+                        android:text="Manisan Jambu Kristal"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="15dp"
-                        android:text="Rp15.000/pcs" />
+                        android:text="Rp15.000/pcs"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -180,14 +184,16 @@
                         android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Sirup Jambu Kristal" />
+                        android:text="Sirup Jambu Kristal"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="15dp"
-                        android:text="Rp8.000/btl" />
+                        android:text="Rp8.000/btl"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -213,14 +219,16 @@
                         android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Pepaya California" />
+                        android:text="Pepaya California"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="15dp"
-                        android:text="Rp5.000/kg" />
+                        android:text="Rp5.000/kg"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -246,14 +254,16 @@
                         android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Kelengkeng" />
+                        android:text="Kelengkeng"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="15dp"
-                        android:text="Rp20.000/kg" />
+                        android:text="Rp20.000/kg"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -279,14 +289,16 @@
                         android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Bunga Anggrek" />
+                        android:text="Bunga Anggrek"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="15dp"
-                        android:text="Rp25.000/batang" />
+                        android:text="Rp25.000/batang"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -312,14 +324,16 @@
                         android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Kentang Hitam" />
+                        android:text="Kentang Hitam"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="15dp"
-                        android:text="Rp5.000/kg" />
+                        android:text="Rp5.000/kg"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 

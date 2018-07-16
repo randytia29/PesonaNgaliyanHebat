@@ -115,14 +115,16 @@
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Ceriping Singkong" />
+                        android:text="Ceriping Singkong"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga" />
+                        android:text="Harga"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -150,14 +152,16 @@
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Jamur Tiram" />
+                        android:text="Jamur Tiram"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga" />
+                        android:text="Harga"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -183,14 +187,16 @@
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Sate Jamur Tiram" />
+                        android:text="Sate Jamur Tiram"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga" />
+                        android:text="Harga"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -218,14 +224,16 @@
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Krispy Jamur Tiram" />
+                        android:text="Krispy Jamur Tiram"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga" />
+                        android:text="Harga"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 

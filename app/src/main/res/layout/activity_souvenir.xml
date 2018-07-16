@@ -112,17 +112,19 @@
                         android:src="@drawable/ksouvenir1" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Sepatu Rajut Polos" />
+                        android:text="Sepatu Rajut Polos"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp150.000" />
+                        android:text="Rp150.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -147,17 +149,19 @@
                         android:src="@drawable/ksouvenir2" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Sepatu Rajut Pita" />
+                        android:text="Sepatu Rajut Pita"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp140.000" />
+                        android:text="Rp140.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -180,17 +184,19 @@
                         android:src="@drawable/ksouvenir3" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Topi Rajut" />
+                        android:text="Topi Rajut"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp20.000" />
+                        android:text="Rp20.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -215,17 +221,19 @@
                         android:src="@drawable/ksouvenir4" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Dompet Rajut" />
+                        android:text="Dompet Rajut"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp50.000" />
+                        android:text="Rp50.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -250,17 +258,19 @@
                         android:src="@drawable/ksouvenir5" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tas Rajut Satu Warna" />
+                        android:text="Tas Rajut Satu Warna"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp250.000" />
+                        android:text="Rp250.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -285,17 +295,19 @@
                         android:src="@drawable/ksouvenir6" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tas Rajut Dua Warna" />
+                        android:text="Tas Rajut Dua Warna"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp200.000" />
+                        android:text="Rp200.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -320,17 +332,19 @@
                         android:src="@drawable/ksouvenir7" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tas Payet" />
+                        android:text="Tas Payet"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp175.000" />
+                        android:text="Rp175.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -355,17 +369,19 @@
                         android:src="@drawable/ksouvenir8" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Dompet Rajut" />
+                        android:text="Dompet Rajut"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp60.000" />
+                        android:text="Rp60.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -390,17 +406,19 @@
                         android:src="@drawable/ksouvenir9" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Dompet Rajut Tali" />
+                        android:text="Dompet Rajut Tali"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp125.000" />
+                        android:text="Rp125.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -425,17 +443,19 @@
                         android:src="@drawable/ksouvenir10" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Bros Rajut" />
+                        android:text="Bros Rajut"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp10.000" />
+                        android:text="Rp10.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -460,17 +480,19 @@
                         android:src="@drawable/ksouvenir11" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Kalung Mutiara" />
+                        android:text="Kalung Mutiara"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp125.000" />
+                        android:text="Rp125.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -505,17 +527,19 @@
                         android:src="@drawable/ksouvenir12" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Bros Karakter" />
+                        android:text="Bros Karakter"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp3.500" />
+                        android:text="Rp3.500"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -538,17 +562,19 @@
                         android:src="@drawable/ksouvenir13" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tempat Tisu" />
+                        android:text="Tempat Tisu"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp15.000" />
+                        android:text="Rp15.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -573,17 +599,19 @@
                         android:src="@drawable/ksouvenir14" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tempat Tisu Flanel" />
+                        android:text="Tempat Tisu Flanel"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp30.000" />
+                        android:text="Rp30.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -608,17 +636,19 @@
                         android:src="@drawable/ksouvenir15" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tas Bunga" />
+                        android:text="Tas Bunga"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp20.000" />
+                        android:text="Rp20.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -641,17 +671,19 @@
                         android:src="@drawable/ksouvenir16" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tempat Tisu Pelepah Pisang" />
+                        android:text="Tempat Tisu Pelepah Pisang"
+                        android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="85dp"
+                        android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp40.000" />
+                        android:text="Rp40.000"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 

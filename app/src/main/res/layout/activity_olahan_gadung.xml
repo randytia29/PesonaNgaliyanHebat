@@ -113,14 +113,16 @@
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Kripik Gadung" />
+                        android:text="Kripik Gadung"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga" />
+                        android:text="Harga"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -146,14 +148,16 @@
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Stick Gadung" />
+                        android:text="Stick Gadung"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga" />
+                        android:text="Harga"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -179,14 +183,16 @@
                         android:layout_width="195dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
-                        android:text="Tepung Gadung" />
+                        android:text="Tepung Gadung"
+                        android:textSize="17sp" />
 
                     <TextView
                         android:layout_width="85dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
-                        android:text="Harga" />
+                        android:text="Harga"
+                        android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
