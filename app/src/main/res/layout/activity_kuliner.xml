@@ -18,6 +18,7 @@
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
+                android:id="@+id/kuliner1"
                 android:layout_height="75dp"
                 android:layout_marginBottom="5dp"
                 android:foreground="?selectableItemBackground"
