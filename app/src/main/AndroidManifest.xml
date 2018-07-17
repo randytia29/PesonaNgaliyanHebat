@@ -115,6 +115,7 @@
             android:name=".SerendengActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TahuGimbalBuSitiActivity"></activity>
     </application>
 
 </manifest>
