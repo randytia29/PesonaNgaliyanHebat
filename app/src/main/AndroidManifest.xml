@@ -115,7 +115,10 @@
             android:name=".SerendengActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".TahuGimbalBuSitiActivity"></activity>
+        <activity
+            android:name=".TahuGimbalBuSitiActivity"
+            android:label="Tahu Gimbal Bu Siti" />
+        <activity android:name=".AngkringanPingtoEatActivity"></activity>
     </application>
 
 </manifest>
