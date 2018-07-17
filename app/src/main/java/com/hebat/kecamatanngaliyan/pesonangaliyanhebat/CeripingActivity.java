@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class CeripingActivity extends AppCompatActivity {
 
     FloatingActionButton fabCripingMap;
-    TextView textViewCripingContact;
+    TextView textViewCripingContact, textViewJamurContact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,11 +26,20 @@ public class CeripingActivity extends AppCompatActivity {
 
         initCollapsingToolbar();
 
-        textViewCripingContact = (TextView) findViewById(R.id.textview_criping_contact);
+        textViewCripingContact = (TextView) findViewById(R.id.textview_criping_contact_criping);
         textViewCripingContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "081325415735", null));
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "081391550824", null));
+                startActivity(intent);
+            }
+        });
+
+        textViewJamurContact = (TextView) findViewById(R.id.textview_criping_contact_jamur);
+        textViewJamurContact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", "087780456776", null));
                 startActivity(intent);
             }
         });

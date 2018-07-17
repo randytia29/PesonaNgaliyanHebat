@@ -27,7 +27,7 @@
         android:layout_marginRight="5dp"
         android:layout_marginTop="20dp"
         android:foreground="?selectableItemBackground"
-        android:src="@drawable/icon_wisata"
+        android:src="@drawable/icon_tematik"
         tools:ignore="ContentDescription" />
 
     <ImageView
@@ -53,7 +53,7 @@
         android:layout_marginRight="5dp"
         android:layout_marginTop="20dp"
         android:foreground="?selectableItemBackground"
-        android:src="@drawable/icon_wisata"
+        android:src="@drawable/icon_kuliner"
         tools:ignore="ContentDescription" />
 
     <RelativeLayout
