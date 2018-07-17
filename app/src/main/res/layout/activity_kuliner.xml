@@ -65,6 +65,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/nasigorengwatulumpang"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_marginBottom="5dp"
@@ -80,14 +81,15 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
-                        android:text="Nama kuliner"
+                        android:text="Nasi Goreng Watu Lumpang"
                         android:textSize="25sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/nasigorengmassastro"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_marginBottom="5dp"
@@ -103,14 +105,15 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
-                        android:text="Nama kuliner"
+                        android:text="Nasi Goreng Mas Sastro"
                         android:textSize="25sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/nasibebekmudakangjono"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_marginBottom="5dp"
@@ -126,14 +129,15 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="5dp"
+                        android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
-                        android:text="Nama kuliner"
+                        android:text="Nasi Bebek Muda Kang Jono"
                         android:textSize="25sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/sotopaksaepul"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:layout_marginBottom="5dp"
@@ -151,7 +155,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:gravity="center_vertical"
-                        android:text="Nama kuliner"
+                        android:text="Soto Pak Saepul"
                         android:textSize="25sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>

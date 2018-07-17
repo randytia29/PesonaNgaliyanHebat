@@ -8,7 +8,8 @@ import android.view.View;
 
 public class KulinerActivity extends AppCompatActivity {
 
-    CardView cardTahuGimbalBuSiti, cardAngkringanPingtoEat;
+    CardView cardTahuGimbalBuSiti, cardAngkringanPingtoEat, cardNasiGorengWatuLumpang, cardNasiGorengMasSastro,
+            cardNasiBebekMudaKangJono, cardSotoPakSaepul;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,42 @@ public class KulinerActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(KulinerActivity.this, AngkringanPingtoEatActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardNasiGorengWatuLumpang = findViewById(R.id.nasigorengwatulumpang);
+        cardNasiGorengWatuLumpang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, NasiGorengWatuLumpangActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardNasiGorengMasSastro = findViewById(R.id.nasigorengmassastro);
+        cardNasiGorengMasSastro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, NasiGorengMasSastroActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardNasiBebekMudaKangJono = findViewById(R.id.nasibebekmudakangjono);
+        cardNasiBebekMudaKangJono.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, NasiBebekMudaKangJonoActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardSotoPakSaepul = findViewById(R.id.sotopaksaepul);
+        cardSotoPakSaepul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, SotoPakSaepulActivity.class);
                 startActivity(intent);
             }
         });

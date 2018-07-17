@@ -118,7 +118,21 @@
         <activity
             android:name=".TahuGimbalBuSitiActivity"
             android:label="Tahu Gimbal Bu Siti" />
-        <activity android:name=".AngkringanPingtoEatActivity"></activity>
+        <activity
+            android:name=".AngkringanPingtoEatActivity"
+            android:label="Angkringan Ping to Eat" />
+        <activity
+            android:name=".NasiGorengWatuLumpangActivity"
+            android:label="Nasi Goreng Watu Lumpang" />
+        <activity
+            android:name=".NasiGorengMasSastroActivity"
+            android:label="Nasi Goreng Mas Sastro" />
+        <activity
+            android:name=".NasiBebekMudaKangJonoActivity"
+            android:label="Nasi Bebek Muda Kang Jono" />
+        <activity
+            android:name=".SotoPakSaepulActivity"
+            android:label="Soto Pak Saepul" />
     </application>
 
 </manifest>
