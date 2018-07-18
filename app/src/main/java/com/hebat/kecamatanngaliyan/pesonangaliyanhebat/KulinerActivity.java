@@ -9,7 +9,7 @@ import android.view.View;
 public class KulinerActivity extends AppCompatActivity {
 
     CardView cardTahuGimbalBuSiti, cardAngkringanPingtoEat, cardNasiGorengWatuLumpang, cardNasiGorengMasSastro,
-            cardNasiBebekMudaKangJono, cardSotoPakSaepul;
+            cardNasiBebekMudaKangJono, cardSotoPakSaepul, cardBelut96, cardMieBaksoSehati;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +66,24 @@ public class KulinerActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(KulinerActivity.this, SotoPakSaepulActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardBelut96 = findViewById(R.id.belut96);
+        cardBelut96.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, Belut96Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardMieBaksoSehati = findViewById(R.id.miebaksosehati);
+        cardMieBaksoSehati.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, MieBaksoSehatiActivity.class);
                 startActivity(intent);
             }
         });

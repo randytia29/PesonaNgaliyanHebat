@@ -133,6 +133,12 @@
         <activity
             android:name=".SotoPakSaepulActivity"
             android:label="Soto Pak Saepul" />
+        <activity
+            android:name=".Belut96Activity"
+            android:label="Belut 96" />
+        <activity
+            android:name=".MieBaksoSehatiActivity"
+            android:label="Mie Bakso Sehati" />
     </application>
 
 </manifest>
