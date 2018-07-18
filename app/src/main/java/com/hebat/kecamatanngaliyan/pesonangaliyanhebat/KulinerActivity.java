@@ -9,7 +9,8 @@ import android.view.View;
 public class KulinerActivity extends AppCompatActivity {
 
     CardView cardTahuGimbalBuSiti, cardAngkringanPingtoEat, cardNasiGorengWatuLumpang, cardNasiGorengMasSastro,
-            cardNasiBebekMudaKangJono, cardSotoPakSaepul, cardBelut96, cardMieBaksoSehati;
+            cardNasiBebekMudaKangJono, cardSotoPakSaepul, cardBelut96, cardMieBaksoSehati, cardSambelHuHah,
+            cardKedaiEsKrim, cardLeleKetawa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +85,33 @@ public class KulinerActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(KulinerActivity.this, MieBaksoSehatiActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardSambelHuHah = findViewById(R.id.sambelhuhah);
+        cardSambelHuHah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, SambelHuHahActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardKedaiEsKrim = findViewById(R.id.kedaieskrim);
+        cardKedaiEsKrim.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, KedaiEsKrimActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardLeleKetawa = findViewById(R.id.leleketawa);
+        cardLeleKetawa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, LeleKetawaActivity.class);
                 startActivity(intent);
             }
         });

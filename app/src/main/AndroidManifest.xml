@@ -139,6 +139,15 @@
         <activity
             android:name=".MieBaksoSehatiActivity"
             android:label="Mie Bakso Sehati" />
+        <activity
+            android:name=".SambelHuHahActivity"
+            android:label="Sambel Hu Hah" />
+        <activity
+            android:name=".KedaiEsKrimActivity"
+            android:label="Kedai Es Krim" />
+        <activity
+            android:name=".LeleKetawaActivity"
+            android:label="Lele Ketawa" />
     </application>
 
 </manifest>
