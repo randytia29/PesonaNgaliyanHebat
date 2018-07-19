@@ -10,7 +10,8 @@ public class KulinerActivity extends AppCompatActivity {
 
     CardView cardTahuGimbalBuSiti, cardAngkringanPingtoEat, cardNasiGorengWatuLumpang, cardNasiGorengMasSastro,
             cardNasiBebekMudaKangJono, cardSotoPakSaepul, cardBelut96, cardMieBaksoSehati, cardSambelHuHah,
-            cardKedaiEsKrim, cardLeleKetawa;
+            cardKedaiEsKrim, cardLeleKetawa, cardPecelGablokMbakMul, cardKelapaBakarBuWarsito, cardSotoKerbaudanNasiPindang,
+            cardDawetKetanPakAgus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,6 +113,42 @@ public class KulinerActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(KulinerActivity.this, LeleKetawaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardPecelGablokMbakMul = findViewById(R.id.pecelgablokmbakmul);
+        cardPecelGablokMbakMul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, PecelGablokMbakMulActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardKelapaBakarBuWarsito = findViewById(R.id.kelapabakarbuwarsito);
+        cardKelapaBakarBuWarsito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, KelapaBakarBuWarsitoActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardSotoKerbaudanNasiPindang = findViewById(R.id.sotokerbaudannasipindang);
+        cardSotoKerbaudanNasiPindang.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, SotoKerbaudanNasiPindangActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardDawetKetanPakAgus = findViewById(R.id.dawetketanpakagus);
+        cardDawetKetanPakAgus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, DawetKetanPakAgusActivity.class);
                 startActivity(intent);
             }
         });
