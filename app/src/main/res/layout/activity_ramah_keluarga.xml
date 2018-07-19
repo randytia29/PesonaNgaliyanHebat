@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Kampung Tematik atau yang bisa disebut Posyandu Kartini berada di lingkungan RT 08 RW VI Kelurahan Ngaliyan. Pada Tahun 2015 dinobatkan sebagai Juara I tingkat nasional. Setelah itu banyak lembaga sosial dari berbagai daerah datang untuk meninjau dan melakukan studi banding sehingga mulai dikembangkan lagi pada tahun 2017 dengan menggunakan anggaran APBD II Kota Semarang"
+                android:text="Kampung Tematik yang bisa disebut Posyandu kartini berada di lingkungan RT 08 RW VI Kelurahan Ngaliyan. Pada Tahun 2015 dinobatkan sebagai Juara I tingkat nasional lomba Posyandu tingkat nasional. Setelah itu banyak lembaga sosial dari berbagai daerah datang untuk meninjau dan melakukan studi banding sehingga mulai dikembangkan lagi pada tahun 2017 dengan menggunakan APBD II Kota Semarang. Posyandu terintegrasi ini juga memiliki POS PAUD dan POSYANDU LANSIA"
                 android:textSize="17sp" />
 
             <ImageView

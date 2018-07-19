@@ -63,7 +63,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Kampung Souvenir Tambakaji adalah salah satu Kampung Tematik yang berada di Kecamatan Ngaliyan dan beralamat di RT 03 RW IV Kelurahan Tambakaji. Kampung Souvenir ini berisi produk-produk kerajinan tangan dari ibu-ibu Kelurahan Tambakaji berupa dompet, sepatu dan tas dari rajut, olahan kain perca, tema tisu dari pelepah pisang dan kain flannel"
+                android:text="Kampung Souvenir Tambakaji berlokasi di RT 03 RW IV Kelurahan Tambakaji. Kampung Souvenir ini berisi produk kerajinan tangan dari ibu-ibu Kelurahan Tambakaji berupa dompet, sepatu, tas dari rajut, olahan kain perca, tema tisu dari pelepah pisang dan kain flannel"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Meskipun kampung tematik ini berada di wilayah RW IV namun hasil kerajinan tangan tidak hanya berasal dari RW IV tetapi juga dari RW XII dan tidak menutup kemungkinan untuk ibu-ibu dari RW lain juga ikut menampilkan hasil karyanya"
                 android:textSize="17sp" />
 
             <ImageView
