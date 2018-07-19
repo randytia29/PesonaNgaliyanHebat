@@ -163,6 +163,9 @@
         <activity
             android:name=".AyamKemoeldanAngkringanOmBunActivity"
             android:label="Ayam Kemoel dan Angkringan Om Bun" />
+        <activity
+            android:name=".AngkringanGrillesActivity"
+            android:label="Angkringan Grilles" />
     </application>
 
 </manifest>

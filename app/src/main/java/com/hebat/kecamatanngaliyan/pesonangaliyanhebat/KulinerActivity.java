@@ -11,7 +11,7 @@ public class KulinerActivity extends AppCompatActivity {
     CardView cardTahuGimbalBuSiti, cardAngkringanPingtoEat, cardNasiGorengWatuLumpang, cardNasiGorengMasSastro,
             cardNasiBebekMudaKangJono, cardSotoPakSaepul, cardBelut96, cardMieBaksoSehati, cardSambelHuHah,
             cardKedaiEsKrim, cardLeleKetawa, cardPecelGablokMbakMul, cardKelapaBakarBuWarsito, cardSotoKerbaudanNasiPindang,
-            cardDawetKetanPakAgus, cardAyamKemoeldanAngkringanOmBun;
+            cardDawetKetanPakAgus, cardAyamKemoeldanAngkringanOmBun, cardAngkringanGrilles;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -158,6 +158,15 @@ public class KulinerActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(KulinerActivity.this, AyamKemoeldanAngkringanOmBunActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardAngkringanGrilles = findViewById(R.id.angkringangrilles);
+        cardAngkringanGrilles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, AngkringanGrillesActivity.class);
                 startActivity(intent);
             }
         });
