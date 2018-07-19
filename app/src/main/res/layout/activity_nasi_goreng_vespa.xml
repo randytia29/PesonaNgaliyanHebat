@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".CafeSemilirActivity">
+    tools:context=".NasiGorengVespaActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="215dp"
-        android:src="@drawable/mcafesemilir1" />
+        android:src="@drawable/mnasigorengvespa1" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Jl. Panembahan Senopati Raya RT 08 RW III Kelurahan Ngaliyan"
+                android:text="Jl. Prof.Dr.Hamka RT 01 RW I Kelurahan Ngaliyan"
                 android:textSize="17sp" />
 
             <TextView
@@ -63,15 +63,9 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/mcafesemilir2" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/mcafesemilir3" />
+                android:src="@drawable/mnasigorengvespa2" />
         </LinearLayout>
     </ScrollView>
 

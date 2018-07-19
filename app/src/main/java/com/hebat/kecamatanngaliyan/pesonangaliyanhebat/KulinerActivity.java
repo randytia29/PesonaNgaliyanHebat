@@ -11,7 +11,8 @@ public class KulinerActivity extends AppCompatActivity {
     CardView cardTahuGimbalBuSiti, cardAngkringanPingtoEat, cardNasiGorengWatuLumpang, cardNasiGorengMasSastro,
             cardNasiBebekMudaKangJono, cardSotoPakSaepul, cardBelut96, cardMieBaksoSehati, cardSambelHuHah,
             cardKedaiEsKrim, cardLeleKetawa, cardPecelGablokMbakMul, cardKelapaBakarBuWarsito, cardSotoKerbaudanNasiPindang,
-            cardDawetKetanPakAgus, cardAyamKemoeldanAngkringanOmBun, cardAngkringanGrilles;
+            cardDawetKetanPakAgus, cardAyamKemoeldanAngkringanOmBun, cardAngkringanGrilles, cardCafeSemilir,
+            cardSevenPavilion, cardNasiGorengVespa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -167,6 +168,33 @@ public class KulinerActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(KulinerActivity.this, AngkringanGrillesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardCafeSemilir = findViewById(R.id.cafesemilir);
+        cardCafeSemilir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, CafeSemilirActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardSevenPavilion = findViewById(R.id.sevenpavilion);
+        cardSevenPavilion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, SevenPavilionActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cardNasiGorengVespa = findViewById(R.id.nasigorengvespa);
+        cardNasiGorengVespa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(KulinerActivity.this, NasiGorengVespaActivity.class);
                 startActivity(intent);
             }
         });

@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".CafeSemilirActivity">
+    tools:context=".SevenPavilionActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="215dp"
-        android:src="@drawable/mcafesemilir1" />
+        android:src="@drawable/msevenpavilion1" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Jl. Panembahan Senopati Raya RT 08 RW III Kelurahan Ngaliyan"
+                android:text="Jl. Prof.Dr.Hamka RT 01 RW I Kelurahan Ngaliyan"
                 android:textSize="17sp" />
 
             <TextView
@@ -57,21 +57,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="17.00 - 23.00 WIB"
+                android:text="16.00 - 23.00 WIB"
                 android:textSize="17sp" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/mcafesemilir2" />
+                android:src="@drawable/msevenpavilion2" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/mcafesemilir3" />
+                android:src="@drawable/msevenpavilion3" />
         </LinearLayout>
     </ScrollView>
 

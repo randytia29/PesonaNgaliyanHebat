@@ -166,7 +166,15 @@
         <activity
             android:name=".AngkringanGrillesActivity"
             android:label="Angkringan Grilles" />
-        <activity android:name=".CafeSemilirActivity"></activity>
+        <activity
+            android:name=".CafeSemilirActivity"
+            android:label="Cafe Semilir" />
+        <activity
+            android:name=".SevenPavilionActivity"
+            android:label="Seven Pavilion" />
+        <activity
+            android:name=".NasiGorengVespaActivity"
+            android:label="Nasi Goreng Vespa" />
     </application>
 
 </manifest>
