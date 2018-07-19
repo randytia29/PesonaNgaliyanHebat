@@ -160,6 +160,9 @@
         <activity
             android:name=".DawetKetanPakAgusActivity"
             android:label="Dawet Ketan Pak Agus" />
+        <activity
+            android:name=".AyamKemoeldanAngkringanOmBunActivity"
+            android:label="Ayam Kemoel dan Angkringan Om Bun" />
     </application>
 
 </manifest>
