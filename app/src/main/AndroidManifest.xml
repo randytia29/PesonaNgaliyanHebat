@@ -45,16 +45,16 @@
             android:theme="@style/SplashScreen" />
         <activity
             android:name=".TematikActivity"
-            android:label="Kampung Tematik"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
         <activity
             android:name=".WisataActivity"
-            android:label="Wisata"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
         <activity
             android:name=".KulinerActivity"
-            android:label="Kuliner"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreen" />
         <activity
             android:name=".IndianActivity"
             android:screenOrientation="portrait"

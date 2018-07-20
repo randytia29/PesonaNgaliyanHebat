@@ -2,16 +2,11 @@
 <resources>
     <color name="colorPrimary">#F44336</color>
     <color name="colorPrimaryDark">#BA000D</color>
-    <color name="colorPrimaryLight">#FF7961</color>
+    <color name="colorPrimaryLight">#EF5350</color>
     <color name="colorAccent">#FF4081</color>
 
     <color name="active_dots">#FFFAFA</color>
     <color name="inactive_dots">#83878B</color>
 
-    <color name="fab_main">#E53935</color>
-    <color name="fab_tematik">#5E35B1</color>
-    <color name="fab_wisata">#039BE5</color>
-    <color name="fab_kuliner">#43A047</color>
-
-    <color name="sidekick_color">#EF5350</color>
+    <color name="sidekick_color">#D32F2F</color>
 </resources>

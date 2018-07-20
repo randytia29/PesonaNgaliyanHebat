@@ -3,19 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/background_main"
     android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="175dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/pesonangaliyanhebat"
-        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView_tematik"
@@ -25,7 +15,7 @@
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="210dp"
         android:foreground="?selectableItemBackground"
         android:src="@drawable/icon_tematik"
         tools:ignore="ContentDescription" />

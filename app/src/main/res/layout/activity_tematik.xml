@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/background_tematik"
     android:orientation="vertical"
     tools:context=".TematikActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
         tools:ignore="UselessParent">
 
         <LinearLayout
@@ -25,7 +25,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="25dp"
                 android:foreground="?selectableItemBackground"
-                android:src="@drawable/kampung_snack" />
+                android:src="@drawable/kampung_snack"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/kampung_jambu_kristal"
@@ -34,7 +35,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:foreground="?selectableItemBackground"
-                android:src="@drawable/kampung_jambu_kristal" />
+                android:src="@drawable/kampung_jambu_kristal"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/kampung_souvenir"
@@ -43,7 +45,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:foreground="?selectableItemBackground"
-                android:src="@drawable/kampung_souvenir" />
+                android:src="@drawable/kampung_souvenir"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/kampung_criping"
@@ -52,7 +55,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:foreground="?selectableItemBackground"
-                android:src="@drawable/kampung_criping" />
+                android:src="@drawable/kampung_criping"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/kampung_bringinberseri"
@@ -61,7 +65,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:foreground="?selectableItemBackground"
-                android:src="@drawable/kampung_bringin_berseri" />
+                android:src="@drawable/kampung_bringin_berseri"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/kampung_sulampita"
@@ -70,7 +75,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:foreground="?selectableItemBackground"
-                android:src="@drawable/kampung_sulam_pita" />
+                android:src="@drawable/kampung_sulam_pita"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/kampung_asri_berimbang"
@@ -79,7 +85,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:foreground="?selectableItemBackground"
-                android:src="@drawable/kampung_asriberimbang" />
+                android:src="@drawable/kampung_asriberimbang"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/kampung_ramah_keluarga"
@@ -88,7 +95,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:foreground="?selectableItemBackground"
-                android:src="@drawable/kampung_ramah_keluarga" />
+                android:src="@drawable/kampung_ramah_keluarga"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/kampung_olahan_gadung"
@@ -98,7 +106,8 @@
                 android:layout_marginBottom="10dp"
                 android:layout_marginTop="10dp"
                 android:foreground="?selectableItemBackground"
-                android:src="@drawable/kampung_keripik_gadung" />
+                android:src="@drawable/kampung_keripik_gadung"
+                tools:ignore="ContentDescription" />
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
