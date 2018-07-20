@@ -117,40 +117,52 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TahuGimbalBuSitiActivity"
-            android:label="Tahu Gimbal Bu Siti" />
+            android:label="Tahu Gimbal Bu Siti"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".AngkringanPingtoEatActivity"
-            android:label="Angkringan Ping to Eat" />
+            android:label="Angkringan Ping to Eat"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".NasiGorengWatuLumpangActivity"
-            android:label="Nasi Goreng Watu Lumpang" />
+            android:label="Nasi Goreng Watu Lumpang"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".NasiGorengMasSastroActivity"
-            android:label="Nasi Goreng Mas Sastro" />
+            android:label="Nasi Goreng Mas Sastro"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".NasiBebekMudaKangJonoActivity"
-            android:label="Nasi Bebek Muda Kang Jono" />
+            android:label="Nasi Bebek Muda Kang Jono"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SotoPakSaepulActivity"
-            android:label="Soto Pak Saepul" />
+            android:label="Soto Pak Saepul"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Belut96Activity"
-            android:label="Belut 96" />
+            android:label="Belut 96"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MieBaksoSehatiActivity"
-            android:label="Mie Bakso Sehati" />
+            android:label="Mie Bakso Sehati"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".SambelHuHahActivity"
-            android:label="Sambel Hu Hah" />
+            android:label="Sambel Hu Hah"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".KedaiEsKrimActivity"
-            android:label="Kedai Es Krim" />
+            android:label="Kedai Es Krim"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".LeleKetawaActivity"
-            android:label="Lele Ketawa" />
+            android:label="Lele Ketawa"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PecelGablokMbakMulActivity"
-            android:label="Pecel Gablok Mbak Mul" />
+            android:label="Pecel Gablok Mbak Mul"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".KelapaBakarBuWarsitoActivity"
             android:label="Kelapa Bakar Bu Warsito" />
