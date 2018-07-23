@@ -60,6 +60,26 @@
                 android:text="11.00 - 20.00 WIB"
                 android:textSize="17sp" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Contact Person"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textview_angkringanpingtoeat_contact"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="082220111046"
+                android:textColor="#1976D2"
+                android:textSize="17sp" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
