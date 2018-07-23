@@ -396,7 +396,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginLeft="10dp"
                         android:gravity="center_vertical"
-                        android:text="Ayam Kemoel dan Angkringan Om Bun"
+                        android:text="Ayam Kemoel Om Bun"
                         android:textSize="25sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>

@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/imageView_tematik"
-        android:layout_width="match_parent"
+        android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:layout_marginBottom="5dp"
@@ -22,7 +22,7 @@
 
     <ImageView
         android:id="@+id/imageView_wisata"
-        android:layout_width="match_parent"
+        android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:layout_marginBottom="5dp"
@@ -35,7 +35,7 @@
 
     <ImageView
         android:id="@+id/imageView_kuliner"
-        android:layout_width="match_parent"
+        android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:layout_marginBottom="5dp"
