@@ -9,8 +9,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_marginTop="120dp"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="120dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,11 +19,8 @@
 
             <android.support.v7.widget.CardView
                 android:id="@+id/tahuGimbalBuSiti"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -32,22 +29,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Tahu Gimbal Bu Siti"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Tahu Gimbal Bu Siti" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/angkringanpingtoeat"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -56,22 +46,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Angkringan Ping to Eat"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Angkringan Ping to Eat" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/nasigorengwatulumpang"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -80,22 +63,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Nasi Goreng Watu Lumpang"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Nasi Goreng Watu Lumpang" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/nasigorengmassastro"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -104,22 +80,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Nasi Goreng Mas Sastro"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Nasi Goreng Mas Sastro" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/nasibebekmudakangjono"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -128,22 +97,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Nasi Bebek Muda Kang Jono"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Nasi Bebek Muda Kang Jono" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/sotopaksaepul"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -152,22 +114,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Soto Pak Saepul"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Soto Pak Saepul" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/belut96"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -176,22 +131,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Belut 96"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Belut 96" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/miebaksosehati"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -200,22 +148,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Mie Bakso Sehati"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Mie Bakso Sehati" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/sambelhuhah"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -224,22 +165,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Sambel Hu Hah"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Sambel Hu Hah" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/kedaieskrim"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -248,22 +182,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Kedai Es Krim"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Kedai Es Krim" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/leleketawa"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -272,22 +199,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Lele Ketawa"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Lele Ketawa" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/pecelgablokmbakmul"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -296,22 +216,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Pecel Gablok Mbak Mul"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Pecel Gablok Mbak Mul" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/kelapabakarbuwarsito"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -320,22 +233,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Kelapa Bakar Bu Warsito"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Kelapa Bakar Bu Warsito" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/sotokerbaudannasipindang"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -344,22 +250,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Soto Kerbau dan Nasi Pindang"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Soto Kerbau dan Nasi Pindang" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/dawetketanpakagus"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -368,22 +267,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Dawet Ketan Pak Agus"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Dawet Ketan Pak Agus" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/ayamkemoeldanangkringanombun"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -392,22 +284,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Ayam Kemoel Om Bun"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Ayam Kemoel Om Bun" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/angkringangrilles"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -416,22 +301,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Angkringan Grilles"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Angkringan Grilles" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/cafesemilir"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -440,22 +318,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Cafe Semilir"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Cafe Semilir" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/sevenpavilion"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -464,22 +335,15 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Seven Pavilion"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Seven Pavilion" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:id="@+id/nasigorengvespa"
-                android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:layout_marginBottom="5dp"
-                android:foreground="?selectableItemBackground"
-                app:cardBackgroundColor="@color/white"
+                style="@style/list_kuliner_card"
+                app:cardBackgroundColor="#99F44336"
                 app:cardElevation="3dp">
 
                 <LinearLayout
@@ -488,12 +352,8 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
-                        android:gravity="center_vertical"
-                        android:text="Nasi Goreng Vespa"
-                        android:textSize="25sp" />
+                        style="@style/list_kuliner_text"
+                        android:text="Nasi Goreng Vespa" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
         </LinearLayout>
