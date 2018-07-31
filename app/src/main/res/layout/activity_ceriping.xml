@@ -90,16 +90,6 @@
                 android:textColor="#1976D2"
                 android:textSize="17sp" />
 
-            <TextView
-                android:id="@+id/textview_criping_contact_jamur"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:text="087780456776 - Bu Suci (Jamur)"
-                android:textColor="#1976D2"
-                android:textSize="17sp" />
-
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -212,10 +202,21 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
+            <TextView
+                android:id="@+id/textview_criping_contact_jamur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="087780456776 - Bu Suci (Jamur)"
+                android:textColor="#1976D2"
+                android:textSize="17sp" />
+
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
