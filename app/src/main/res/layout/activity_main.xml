@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_main"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView_tematik"
         android:layout_width="280dp"
         android:layout_height="80dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="210dp"
+        android:layout_above="@+id/imageView_wisata"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
         android:foreground="?selectableItemBackground"
         android:src="@drawable/icon_tematik"
         tools:ignore="ContentDescription" />
@@ -24,11 +21,9 @@
         android:id="@+id/imageView_wisata"
         android:layout_width="280dp"
         android:layout_height="80dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="20dp"
+        android:layout_above="@+id/imageView_kuliner"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
         android:foreground="?selectableItemBackground"
         android:src="@drawable/icon_wisata"
         tools:ignore="ContentDescription" />
@@ -37,14 +32,13 @@
         android:id="@+id/imageView_kuliner"
         android:layout_width="280dp"
         android:layout_height="80dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="70dp"
         android:foreground="?selectableItemBackground"
         android:src="@drawable/icon_kuliner"
         tools:ignore="ContentDescription" />
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -59,4 +53,4 @@
             android:text="@string/it_squad_ngaliyan_2018"
             android:textColor="@color/sidekick_color" />
     </RelativeLayout>
-</LinearLayout>
+</RelativeLayout>
