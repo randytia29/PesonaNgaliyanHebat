@@ -31,7 +31,7 @@ public class MieBaksoSehatiActivity extends AppCompatActivity {
         fabMieBaksoSehatiMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("geo:0,0?q=Warung Mie Bakso Sehat,i");
+                Uri gmmIntentUri = Uri.parse("geo:0,0?q=Warung Mie Bakso Sehat,i, Wonosari, Ngaliyan, Semarang City, Central Java 50244");
                 Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 intent.setPackage("com.google.android.apps.maps");
                 startActivity(intent);

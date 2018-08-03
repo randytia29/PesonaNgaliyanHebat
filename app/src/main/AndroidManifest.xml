@@ -133,7 +133,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".NasiBebekMudaKangJonoActivity"
-            android:label="Nasi Bebek Muda Kang Jono"
+            android:label="Warung Bebek Kang Jono"
             android:screenOrientation="portrait" />
         <activity
             android:name=".SotoPakSaepulActivity"
@@ -177,16 +177,16 @@
             android:label="Ayam Kemoel Om Bun" />
         <activity
             android:name=".AngkringanGrillesActivity"
-            android:label="Angkringan Grilles" />
+            android:label="Angkringen Griles" />
         <activity
             android:name=".CafeSemilirActivity"
-            android:label="Cafe Semilir" />
+            android:label="Semilir Cafe" />
         <activity
             android:name=".SevenPavilionActivity"
-            android:label="Seven Pavilion" />
+            android:label="Seven Pavillon" />
         <activity
             android:name=".NasiGorengVespaActivity"
-            android:label="Nasi Goreng Vespa" />
+            android:label="Waroeng Scooter" />
     </application>
 
 </manifest>

@@ -98,7 +98,7 @@
 
                     <TextView
                         style="@style/list_kuliner_text"
-                        android:text="Nasi Bebek Muda Kang Jono" />
+                        android:text="Warung Bebek Kang Jono" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -302,7 +302,7 @@
 
                     <TextView
                         style="@style/list_kuliner_text"
-                        android:text="Angkringan Grilles" />
+                        android:text="Angkringen Griles" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -319,7 +319,7 @@
 
                     <TextView
                         style="@style/list_kuliner_text"
-                        android:text="Cafe Semilir" />
+                        android:text="Semilir Cafe" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -336,7 +336,7 @@
 
                     <TextView
                         style="@style/list_kuliner_text"
-                        android:text="Seven Pavilion" />
+                        android:text="Seven Pavillon" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
@@ -353,7 +353,7 @@
 
                     <TextView
                         style="@style/list_kuliner_text"
-                        android:text="Nasi Goreng Vespa" />
+                        android:text="Waroeng Scooter" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
         </LinearLayout>

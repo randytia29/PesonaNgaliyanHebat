@@ -31,7 +31,7 @@ public class NasiBebekMudaKangJonoActivity extends AppCompatActivity {
         fabNasiBebekMudaKangJonoMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri gmmIntentUri = Uri.parse("https://plus.codes/6P5G2948+6WG");
+                Uri gmmIntentUri = Uri.parse("geo:0,0?q=Warung Bebek Kang Jono, no. 21,, Jl. Purwoyoso 1C, Purwoyoso, Ngaliyan, Kota Semarang, Jawa Tengah 50184");
                 Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
                 intent.setPackage("com.google.android.apps.maps");
                 startActivity(intent);
