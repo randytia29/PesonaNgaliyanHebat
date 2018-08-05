@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Kampung Criping Gondoriyo terletak di RT 01 RW III Kelurahan Gondoriyo Kecamatan Ngaliyan. Kampung Criping ini dibuat dengan maksud memanfatkan potensi lahan yang kebetulan penduduknya sebagian besar bermata pencaharian sebagai petani. Produk dari kampung criping antara lain tempe, ceriping daun singkong, ceriping singkong, ceriping kulit pisang dan aneka jajanan lainnya"
+                android:text="Kampung Criping Gondoriyo terletak di RT 01 RW III Kelurahan Gondoriyo Kecamatan Ngaliyan. Kampung Criping ini dibuat dengan maksud memanfatkan potensi lahan yang kebetulan penduduknya sebagian besar bermata pencaharian sebagai petani. Produk dari kampung criping antara lain ceriping tempe, ceriping daun singkong, ceriping singkong, ceriping pisang dan aneka jajanan lainnya"
                 android:textSize="17sp" />
 
             <ImageView
@@ -234,14 +234,14 @@
                         android:src="@drawable/kceriping4" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="Jamur Tiram"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="95dp"
+                        android:layout_width="105dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"
@@ -306,14 +306,14 @@
                         android:src="@drawable/kceriping6" />
 
                     <TextView
-                        android:layout_width="185dp"
+                        android:layout_width="175dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:text="Jamur Krispy"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="95dp"
+                        android:layout_width="105dp"
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="20dp"

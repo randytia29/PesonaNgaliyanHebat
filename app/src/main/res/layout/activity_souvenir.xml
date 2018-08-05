@@ -510,7 +510,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
-                android:text="085950720860 - Bu Suparti"
+                android:text="085950720860 - Bu Suprapti"
                 android:textColor="#1976D2"
                 android:textSize="17sp" />
 
@@ -567,41 +567,6 @@
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
-                        android:src="@drawable/ksouvenir13" />
-
-                    <TextView
-                        android:layout_width="175dp"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:text="Tempat Tisu"
-                        android:textSize="17sp" />
-
-                    <TextView
-                        android:layout_width="95dp"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:paddingRight="10dp"
-                        android:text="Rp15.000"
-                        android:textSize="17sp" />
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="95dp"
-                android:layout_marginBottom="5dp"
-                app:cardBackgroundColor="@color/white"
-                app:cardElevation="3dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="95dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="5dp"
                         android:paddingBottom="5dp"
                         android:paddingTop="5dp"
                         android:src="@drawable/ksouvenir14" />
@@ -618,7 +583,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp30.000"
+                        android:text="Rp35.000"
                         android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -690,7 +655,7 @@
                         android:layout_height="match_parent"
                         android:gravity="center"
                         android:paddingRight="10dp"
-                        android:text="Rp40.000"
+                        android:text="Rp35.000"
                         android:textSize="17sp" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>

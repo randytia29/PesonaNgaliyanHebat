@@ -177,7 +177,7 @@
             android:label="Ayam Kemoel Om Bun" />
         <activity
             android:name=".AngkringanGrillesActivity"
-            android:label="Angkringen Griles" />
+            android:label="Angkringan Griles" />
         <activity
             android:name=".CafeSemilirActivity"
             android:label="Semilir Cafe" />

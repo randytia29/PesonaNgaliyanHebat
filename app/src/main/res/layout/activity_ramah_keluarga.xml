@@ -82,7 +82,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Kampung Ramah Keluarga merupakan kampung tematik yang di dalamnya terdapat Posyandu terintegrasi yang berada di lingkungan RT 08 RW VI Kelurahan Ngaliyan. Pada Tahun 2015 dinobatkan sebagai Juara 1 tingkat nasional lomba Posyandu tingkat nasional. Setelah itu banyak lembaga sosial dari berbagai daerah datang untuk meninjau dan melakukan studi banding sehingga mulai dikembangkan lagi pada tahun 2017 dengan menggunakan anggaran APBD II Kota Semarang"
+                android:text="Kampung Ramah Keluarga merupakan kampung tematik yang di dalamnya terdapat Posyandu terintegrasi yang berada di lingkungan RT 08 RW VI Kelurahan Ngaliyan. Pada Tahun 2015 dinobatkan sebagai Juara 1 tingkat nasional lomba Posyandu tingkat nasional. Setelah itu banyak lembaga sosial dari berbagai daerah datang untuk meninjau dan melakukan studi banding"
                 android:textSize="17sp" />
 
             <ImageView

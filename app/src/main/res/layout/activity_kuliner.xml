@@ -302,7 +302,7 @@
 
                     <TextView
                         style="@style/list_kuliner_text"
-                        android:text="Angkringen Griles" />
+                        android:text="Angkringan Griles" />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
