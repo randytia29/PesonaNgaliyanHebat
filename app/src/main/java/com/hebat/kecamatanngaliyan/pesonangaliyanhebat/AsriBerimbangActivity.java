@@ -1,6 +1,5 @@
 package com.hebat.kecamatanngaliyan.pesonangaliyanhebat;
 
-import android.app.Dialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.design.widget.AppBarLayout;
@@ -10,7 +9,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
 
 public class AsriBerimbangActivity extends AppCompatActivity {
 
@@ -56,7 +54,7 @@ public class AsriBerimbangActivity extends AppCompatActivity {
                     scrollRange = appBarLayout.getTotalScrollRange();
                 }
                 if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle("Kampung Asri Berimbang");
+                    collapsingToolbar.setTitle("Kampung Serasi Berimbang");
                     isShow = true;
                 } else if (isShow) {
                     collapsingToolbar.setTitle(" ");
