@@ -54,7 +54,7 @@ public class KapalActivity extends AppCompatActivity {
                     scrollRange = appBarLayout.getTotalScrollRange();
                 }
                 if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle("Masjid Kapal");
+                    collapsingToolbar.setTitle("Gedung Kapal");
                     isShow = true;
                 } else if (isShow) {
                     collapsingToolbar.setTitle(" ");

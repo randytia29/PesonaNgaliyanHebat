@@ -106,17 +106,6 @@
                 android:layout_marginTop="20dp"
                 android:src="@drawable/wmasjidkapal5"
                 tools:ignore="ContentDescription" />
-
-            <ImageView
-                android:layout_width="350dp"
-                android:layout_height="210dp"
-                android:layout_gravity="center"
-                android:layout_marginBottom="20dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/wmasjidkapal6"
-                tools:ignore="ContentDescription" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 
