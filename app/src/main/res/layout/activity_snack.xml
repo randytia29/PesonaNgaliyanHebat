@@ -99,31 +99,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack1"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack1" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack1"
+                        android:layout_toRightOf="@id/ksnack1"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Arem-Arem Sambal Goreng"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack1"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.700"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -133,31 +140,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack2"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack2" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack2"
+                        android:layout_toRightOf="@id/ksnack2"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Banana Roll"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack2"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.700"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -167,31 +181,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack3"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack3" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack3"
+                        android:layout_toRightOf="@id/ksnack3"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Bolu Kukus"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack3"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.500"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -201,31 +222,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack4"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack4" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack4"
+                        android:layout_toRightOf="@+id/ksnack4"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Dadar Gulung"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack4"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.500"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -235,31 +263,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack5"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack5" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack5"
+                        android:layout_toRightOf="@id/ksnack5"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Getuk"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack5"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.500"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -269,31 +304,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack6"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack6" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack6"
+                        android:layout_toRightOf="@id/ksnack6"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Jadah"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack6"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp2.500"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -303,31 +345,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack7"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack7" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack7"
+                        android:layout_toRightOf="@id/ksnack7"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Kue Ku"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack7"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.700"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -337,31 +386,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack8"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack8" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack8"
+                        android:layout_toRightOf="@+id/ksnack8"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Lemper"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack8"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp2.500"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -371,31 +427,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack9"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack9" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack9"
+                        android:layout_toRightOf="@id/ksnack9"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Martabak"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack9"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.500"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -405,31 +468,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack10"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack10" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack10"
+                        android:layout_toRightOf="@id/ksnack10"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Nogosari"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack10"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.700"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -439,31 +509,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack11"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack11" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack11"
+                        android:layout_toRightOf="@+id/ksnack11"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Onde Onde Kacang Ijo"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack11"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.700"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -473,31 +550,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack12"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack12" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack12"
+                        android:layout_toRightOf="@+id/ksnack12"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Pastel"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack12"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.800"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -507,31 +591,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack13"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack13" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack13"
+                        android:layout_toRightOf="@+id/ksnack13"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Pie Buah"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack13"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp2.300"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -541,31 +632,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack14"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack14" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack14"
+                        android:layout_toRightOf="@+id/ksnack14"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Putu Ayu"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack14"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.500"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -575,31 +673,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack15"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack15" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack15"
+                        android:layout_toRightOf="@+id/ksnack15"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Risoles"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack15"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.800"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -609,31 +714,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack16"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack16" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack16"
+                        android:layout_toRightOf="@+id/ksnack16"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Sosis Solo"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack16"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.500"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -643,31 +755,38 @@
                 app:cardBackgroundColor="@color/white"
                 app:cardElevation="3dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent">
 
                     <ImageView
+                        android:id="@+id/ksnack17"
                         android:layout_width="95dp"
                         android:layout_height="match_parent"
                         android:layout_marginLeft="5dp"
                         android:src="@drawable/ksnack17" />
 
                     <TextView
-                        android:layout_width="170dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack17"
+                        android:layout_toRightOf="@+id/ksnack17"
                         android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
                         android:text="Tahu Bakso"
                         android:textSize="17sp" />
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:id="@+id/hksnack17"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
                         android:gravity="center"
                         android:text="Rp1.800"
                         android:textSize="17sp" />
-                </LinearLayout>
+                </RelativeLayout>
             </android.support.v7.widget.CardView>
 
         </LinearLayout>
