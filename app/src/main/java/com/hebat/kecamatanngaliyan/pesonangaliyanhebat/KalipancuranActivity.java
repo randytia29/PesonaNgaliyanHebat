@@ -54,7 +54,7 @@ public class KalipancuranActivity extends AppCompatActivity {
                     scrollRange = appBarLayout.getTotalScrollRange();
                 }
                 if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle("Sendang Kalipancuran");
+                    collapsingToolbar.setTitle("Sendang Kalipancur");
                     isShow = true;
                 } else if (isShow) {
                     collapsingToolbar.setTitle(" ");
