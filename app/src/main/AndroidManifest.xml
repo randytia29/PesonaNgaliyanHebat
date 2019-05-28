@@ -187,6 +187,7 @@
         <activity
             android:name=".NasiGorengVespaActivity"
             android:label="Waroeng Scooter" />
+        <activity android:name=".KampungOlasi"></activity>
     </application>
 
 </manifest>
