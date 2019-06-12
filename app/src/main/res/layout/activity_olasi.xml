@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".OlasiActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/detail_backdrop_height"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/backdrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/kampung_snack_profile"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax"
+                tools:ignore="ContentDescription" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Kampung Snack ini berisi produk olahan dari ibu-ibu di RW II Kelurahan Kalipancur berupa makanan kecil tradisional dan snack kecil lainnya. Produknya berupa arem-arem, Banana Roll, Bolu Kukus, Dadar Gulung, Gethuk, Jadah, Lemper, Pastel, Putu Ayu, Resoles, Tahu Bakso, Pie Buah dll"
+                android:textSize="17sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ksnackmain" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Info"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_olasi_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="089697177144 - Bu Subur"
+                android:textColor="#1976D2"
+                android:textSize="17sp" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack1"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack1"
+                        android:layout_toRightOf="@id/ksnack1"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Arem-Arem Sambal Goreng"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.700"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack2"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack2"
+                        android:layout_toRightOf="@id/ksnack2"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Banana Roll"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.700"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack3"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack3"
+                        android:layout_toRightOf="@id/ksnack3"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Bolu Kukus"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.500"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack4"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack4"
+                        android:layout_toRightOf="@+id/ksnack4"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Dadar Gulung"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.500"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack5"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack5"
+                        android:layout_toRightOf="@id/ksnack5"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Getuk"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.500"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack6"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack6"
+                        android:layout_toRightOf="@id/ksnack6"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Jadah"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp2.500"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack7"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack7"
+                        android:layout_toRightOf="@id/ksnack7"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Kue Ku"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.700"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack8"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack8"
+                        android:layout_toRightOf="@+id/ksnack8"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Lemper"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp2.500"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack9"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack9"
+                        android:layout_toRightOf="@id/ksnack9"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Martabak"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.500"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack10"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack10" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack10"
+                        android:layout_toRightOf="@id/ksnack10"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Nogosari"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.700"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack11"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack11" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack11"
+                        android:layout_toRightOf="@+id/ksnack11"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Onde Onde Kacang Ijo"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.700"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack12"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack12" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack12"
+                        android:layout_toRightOf="@+id/ksnack12"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Pastel"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.800"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack13"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack13" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack13"
+                        android:layout_toRightOf="@+id/ksnack13"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Pie Buah"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp2.300"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack14"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack14" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack14"
+                        android:layout_toRightOf="@+id/ksnack14"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Putu Ayu"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.500"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack15"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack15" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack15"
+                        android:layout_toRightOf="@+id/ksnack15"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Risoles"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.800"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack16"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack16" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/hksnack16"
+                        android:layout_toRightOf="@+id/ksnack16"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Sosis Solo"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.500"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="3dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/ksnack17"
+                        android:layout_width="95dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/ksnack17" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/hksnack17"
+                        android:layout_toRightOf="@+id/ksnack17"
+                        android:gravity="center"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Tahu Bakso"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/hksnack17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:text="Rp1.800"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_olasi_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="55dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/baseline_place_white_48"
+            app:backgroundTint="@color/colorPrimaryLight"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
